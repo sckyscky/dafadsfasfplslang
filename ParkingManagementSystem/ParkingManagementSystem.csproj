@@ -75,6 +75,12 @@
     <Compile Include="AllSlotsTaken.Designer.cs">
       <DependentUpon>AllSlotsTaken.cs</DependentUpon>
     </Compile>
+    <Compile Include="CameraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CameraForm.Designer.cs">
+      <DependentUpon>CameraForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConfimMsg.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </Compile>
     <EmbeddedResource Include="AllSlotsTaken.resx">
       <DependentUpon>AllSlotsTaken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CameraForm.resx">
+      <DependentUpon>CameraForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConfimMsg.resx">
       <DependentUpon>ConfimMsg.cs</DependentUpon>
