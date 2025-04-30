@@ -89,9 +89,9 @@ namespace ParkingManagementSystem
         }
         private void LogOutBtn_Click(object sender, EventArgs e)
         {
-            LoginForm login = new LoginForm();
-            login.Show();
-            this.Dispose();
+            Logout logoutForm = new Logout(this);
+            logoutForm.ShowDialog();
+
         }
         private void CheckAvailableSlots()
         {
@@ -183,6 +183,22 @@ namespace ParkingManagementSystem
         {
             OccupancyForm occupancyForm = new OccupancyForm();
             occupancyForm.ShowDialog();
+        }
+
+        private void gunaImageButton1_Click(object sender, EventArgs e)
+        {
+            Account account = new Account();
+            account.Show();
+        }
+
+        private void gunaPictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaElipsePanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

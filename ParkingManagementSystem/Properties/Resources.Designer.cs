@@ -73,6 +73,16 @@ namespace ParkingManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_camera_96 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-camera-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_filter_100 {
             get {
                 object obj = ResourceManager.GetObject("icons8-filter-100", resourceCulture);
@@ -86,6 +96,16 @@ namespace ParkingManagementSystem.Properties {
         internal static System.Drawing.Bitmap icons8_logout_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-logout-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_male_user_96 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-male-user-96", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

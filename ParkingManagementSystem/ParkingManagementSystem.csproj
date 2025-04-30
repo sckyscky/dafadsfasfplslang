@@ -69,6 +69,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account.Designer.cs">
+      <DependentUpon>Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addmsgbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addmsgbox.Designer.cs">
+      <DependentUpon>addmsgbox.cs</DependentUpon>
+    </Compile>
     <Compile Include="AllSlotsTaken.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +104,24 @@
     </Compile>
     <Compile Include="Dashboard1.Designer.cs">
       <DependentUpon>Dashboard1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletionMsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletionMsgBox.Designer.cs">
+      <DependentUpon>DeletionMsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logout.Designer.cs">
+      <DependentUpon>Logout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registratoion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registratoion.Designer.cs">
+      <DependentUpon>Registratoion.cs</DependentUpon>
     </Compile>
     <Compile Include="RemoveTicket.cs">
       <SubType>Form</SubType>
@@ -131,6 +161,12 @@
     <Compile Include="SlotTakenMsg.Designer.cs">
       <DependentUpon>SlotTakenMsg.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Account.resx">
+      <DependentUpon>Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addmsgbox.resx">
+      <DependentUpon>addmsgbox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AllSlotsTaken.resx">
       <DependentUpon>AllSlotsTaken.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,6 +178,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard1.resx">
       <DependentUpon>Dashboard1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletionMsgBox.resx">
+      <DependentUpon>DeletionMsgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logout.resx">
+      <DependentUpon>Logout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registratoion.resx">
+      <DependentUpon>Registratoion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RemoveTicket.resx">
       <DependentUpon>RemoveTicket.cs</DependentUpon>
@@ -228,6 +273,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-male-user-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-camera-96.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

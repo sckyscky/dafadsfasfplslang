@@ -10,26 +10,16 @@ using System.Windows.Forms;
 
 namespace ParkingManagementSystem
 {
-    public partial class CameraForm: Form
+    public partial class addmsgbox: Form
     {
-        public CameraForm()
+        public addmsgbox()
         {
             InitializeComponent();
         }
 
-        private void gunaAdvenceButton4_Click(object sender, EventArgs e)
+        private void gunaAdvenceButton2_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void gunaAdvenceButton5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gunaLabel1_Click(object sender, EventArgs e)
-        {
-
+            this.Dispose();
         }
     }
 }
